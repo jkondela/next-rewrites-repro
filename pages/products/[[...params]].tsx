@@ -33,6 +33,7 @@ export const getStaticProps = async ({ params: queryParams }) => {
     props: {
       params: params || null,
     },
+    revalidate: 10,
   };
 };
 
