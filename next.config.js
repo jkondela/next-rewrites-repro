@@ -4,8 +4,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/books/:path*",
-        destination: "/products/book/:path*",
+        source: "/books/:params*",
+        destination: "/products/book/:params*",
       },
     ];
   },
